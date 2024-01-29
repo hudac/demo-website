@@ -1,0 +1,11 @@
+version: v1
+ 
+components:
+- name: website
+  docker:
+    file: Dockerfile
+  ports:
+  - 8080
+  ingresses: 
+  - host: www
+
